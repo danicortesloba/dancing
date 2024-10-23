@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-around;
+    justify-items: space-around;
+    background-color: yellow;
+    padding: 20px;
+    color: green;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    background-color: black;
+}
+
+.library {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgreen;
+    width: 200px;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }   
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: yellow;
+    margin: 100px;
+    max-height: fit-content;
+}
+
+.field {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px grey;
+    background-color: lightgreen;
+}
+
+.button {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px grey;
+    background-color: yellowgreen;
+}
+
+.multiple {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px grey;
+    background-color: lightgreen;
+}
